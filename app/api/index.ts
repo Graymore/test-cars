@@ -4,10 +4,6 @@ import type { AsyncDataOptions } from '#app';
 
 const ofetch = $fetch.create({
     baseURL: 'http://localhost:3000/api',
-    timeout: 3000,
-    retry: 2,
-    retryDelay: 500,
-    retryStatusCodes: [404, 500],
 })
 
 export function fetch<T>(args: RequestArgs): Promise<T> {

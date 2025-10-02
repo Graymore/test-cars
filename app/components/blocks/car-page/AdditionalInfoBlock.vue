@@ -53,13 +53,10 @@
 
     const fetchAdditionalInfo = async () => {
         if (model_id && !currentCar.guards.additionalIsAlready()) {
-            APICar({ model_id }).getAdditionalInfo()
-                .then(additional => {
-                    if (additional) currentCar.actions.setup({ ...currentCar.state, ...additional })
-                })
-                .catch(error => console.log(error))
-                .finally(() => state.loading = false)
+            const additional = await APICar({ model_id }).getAdditionalInfo()
+            if (additional) currentCar.actions.setup({ ...currentCar.state, ...additional })
         }
+        state.loading = false
     }
 
     onMounted(async () => await fetchAdditionalInfo())
