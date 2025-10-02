@@ -1,0 +1,24 @@
+@use "styles/fonts";
+@use "mixins/font";
+@use "vars/color" as c;
+
+* {
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+    box-sizing: border-box;
+    text-decoration-line: unset;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    @include font.def;
+    background-color: c.$body;
+    color: c.$fg
+}
+
+svg {
+    stroke-width: 2;
+}

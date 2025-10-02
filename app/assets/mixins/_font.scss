@@ -1,0 +1,102 @@
+@use '../vars/color';
+
+@mixin h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@mixin h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@mixin logo-600 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@mixin title-500 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+@mixin inherit {
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+@mixin def {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@mixin def-500 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@mixin def-600 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@mixin def-700 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@mixin middle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@mixin middle-500 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@mixin middle-600 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@mixin middle-700 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@mixin small {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@mixin small-500 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@mixin small-600 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@mixin mini {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@mixin mini-500 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@mixin mini-600 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@mixin custom($size: 16px, $weight: 400) {
+    font-size: $size;
+    font-weight: $weight;
+}

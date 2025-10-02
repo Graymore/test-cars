@@ -1,0 +1,104 @@
+[
+    {
+        "id": 76903,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2020
+    },
+    {
+        "id": 75996,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019
+    },
+    {
+        "id": 80358,
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2021
+    },
+    {
+        "id": 82706,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2022
+    },
+    {
+        "id": 79898,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2021
+    },
+    {
+        "id": 77430,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2020
+    },
+    {
+        "id": 74577,
+        "make": "Volkswagen",
+        "model": "Golf",
+        "year": 2019
+    },
+    {
+        "id": 80472,
+        "make": "Kia",
+        "model": "Sportage",
+        "year": 2021
+    },
+    {
+        "id": 77182,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2020
+    },
+    {
+        "id": 74548,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2019
+    },
+    {
+        "id": 76904,
+        "make": "Subaru",
+        "model": "Outback",
+        "year": 2022
+    },
+    {
+        "id": 79139,
+        "make": "Mazda",
+        "model": "CX-5",
+        "year": 2021
+    },
+    {
+        "id": 84104,
+        "make": "Jeep",
+        "model": "Wrangler",
+        "year": 2022
+    },
+    {
+        "id": 82045,
+        "make": "Porsche",
+        "model": "911",
+        "year": 2022
+    },
+    {
+        "id": 78050,
+        "make": "Volvo",
+        "model": "XC60",
+        "year": 2020
+    },
+    {
+        "id": 81619,
+        "make": "Dodge",
+        "model": "Charger",
+        "year": 2021
+    },
+    {
+        "id": 81694,
+        "make": "Acura",
+        "model": "TLX",
+        "year": 2022
+    }
+]
