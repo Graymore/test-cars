@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     typescript: {
         typeCheck: true,
     },
-    modules: ['@pinia/nuxt', 'nuxt-svg-sprite-icon', '@vueuse/nuxt'],
+    modules: ['@pinia/nuxt', 'nuxt-svg-sprite-icon', '@vueuse/nuxt', '@nuxt/eslint'],
     svgSprite: {
         input: './app/assets/icons/svg',
         output: './app/assets/icons/gen',
@@ -23,4 +23,7 @@ export default defineNuxtConfig({
             './app/states/current-car'
         ]
     },
+    eslint: {
+        checker: true
+    }
 })

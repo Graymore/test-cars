@@ -23,6 +23,8 @@
         useDebounceFn(() => search(), 500)()
     }
 
+    const onSearchFocus = () => router.push('/')
+
     const onSearchEnter = () => search()
 
     router.afterEach(() => state.search = '')
@@ -41,6 +43,7 @@
                 :loading="state.searchLoading"
                 @enter="onSearchEnter"
                 @input="onSearchInput"
+                @focus="onSearchFocus"
             />
         </div>
     </header>

@@ -15,6 +15,7 @@
     const emit = defineEmits<{
         'enter': [];
         'input': [];
+        'focus': [];
     }>()
 
     const $css = useCssModule()
@@ -26,7 +27,10 @@
 
     const isLoading = computed(() => loading)
 
-    const onFocus = () => state.focused = true
+    const onFocus = () => {
+        state.focused = true
+        emit('focus')
+    }
     const onBlur = () => state.focused = false
     const onEnter = () => emit('enter')
     const onInput = () => emit('input')
