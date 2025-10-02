@@ -1,75 +1,34 @@
-# Nuxt Minimal Starter
+### ВНИМАНИЕ
+`Чтобы carqueryapi работал нужен VPN для России`
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Запустить проект
+1. `npm i`
+2. `npm run dev`
 
-## Setup
 
-Make sure to install dependencies:
+Основное:
 
-```bash
-# npm
-npm install
+- Proxy для api
+- API типизировано
+- Поиск по наилучшим совпадениям
+- Proxy для состояния (actions, guards, state)
 
-# pnpm
-pnpm install
+Используется
 
-# yarn
-yarn install
+- Nuxt 4
+- Nuxt server (для запросов и статики)
+- Vueuse
+- Composition API
+- Pinia
+- Typescript
+- SCSS
+- Vue Style Modules
+- Nuxt SSR
 
-# bun
-bun install
-```
+Не сделано
 
-## Development Server
+- Доп апи для картинок
+- Нет линтеров
+- Нет фильтров на главной
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Проект использует дефолтную архитектуру Nuxt.
