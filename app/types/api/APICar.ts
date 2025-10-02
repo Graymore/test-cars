@@ -1,5 +1,5 @@
-import type { NuxtError } from "#app";
-import type { _AsyncData } from "#app/composables/asyncData";
+import type { NuxtError } from '#app'
+import type { _AsyncData } from '#app/composables/asyncData'
 
 export interface APICarListItem {
     id: number;

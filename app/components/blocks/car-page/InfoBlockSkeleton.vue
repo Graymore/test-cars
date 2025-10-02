@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { UiSkeleton } from "~/components/ui";
+    import { UiSkeleton } from '~/components/ui'
 </script>
 
 <template>

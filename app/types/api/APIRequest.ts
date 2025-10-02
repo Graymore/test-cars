@@ -1,4 +1,4 @@
-import type { APICarPoints } from "~/types/api/APIPoints"
+import type { APICarPoints } from '~/types/api/APIPoints'
 import type { FetchHooks } from 'ofetch'
 
 enum RequestMethods {

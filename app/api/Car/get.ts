@@ -1,5 +1,5 @@
-import type { APICarListItem, APICarPage, APICarPageAdditional, TContext } from "~/types/api/APICar"
-import { fetch, asyncFetch } from "~/api"
+import type { APICarListItem, APICarPage, APICarPageAdditional, TContext } from '~/types/api/APICar'
+import { fetch, asyncFetch } from '~/api'
 import { reactivePick } from '@vueuse/core'
 
 export function getListItems() {

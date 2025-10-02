@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { UiLogo, UiInput } from '~/components/ui'
-    import { useCarSearch } from "~/composables/carSearch";
+    import { useCarSearch } from "~/composables/carSearch"
     import { useDebounceFn } from '@vueuse/core'
 
     const state = reactive({

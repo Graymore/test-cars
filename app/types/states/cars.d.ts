@@ -1,5 +1,5 @@
 import type { Ref } from 'vue'
-import type { APICarListItem } from "~/types/api/APICar";
+import type { APICarListItem } from '~/types/api/APICar'
 
 export interface TState {
     cars: Ref<APICarListItem[]>;

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-    import { UiIcon, UiPreloader } from '~/components/ui';
-    import type { InputProps, InputState } from "~/types/ui/input"
+    import { UiIcon, UiPreloader } from '~/components/ui'
+    import type { InputProps, InputState } from '~/types/ui/input'
 
     const {
         placeholder,

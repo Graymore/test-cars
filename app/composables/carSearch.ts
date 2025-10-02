@@ -1,4 +1,4 @@
-import type { APICarListItem } from "~/types/api/APICar";
+import type { APICarListItem } from '~/types/api/APICar'
 
 export const useCarSearch = () => {
     let raw: APICarListItem[] = []

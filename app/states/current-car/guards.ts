@@ -1,4 +1,4 @@
-import type { TState, TGuards } from "~/types/states/current-car"
+import type { TState, TGuards } from '~/types/states/current-car'
 
 export default (state: TState): TGuards => {
     return {

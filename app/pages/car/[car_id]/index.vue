@@ -1,6 +1,6 @@
 <script setup lang="ts">
-    import { APICar } from "~/api";
-    import { AdditionalInfoBlock, MainInfo } from "~/components/blocks/car-page"
+    import { APICar } from '~/api'
+    import { AdditionalInfoBlock, MainInfo } from '~/components/blocks/car-page'
 
     const route = useRoute();
     const currentCar = useCurrentCar();

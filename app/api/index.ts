@@ -1,6 +1,6 @@
 import { APICar } from './Car'
-import type { RequestArgs, AsyncRequestArgs } from "~/types/api/APIRequest";
-import type { AsyncDataOptions } from "#app";
+import type { RequestArgs, AsyncRequestArgs } from '~/types/api/APIRequest';
+import type { AsyncDataOptions } from '#app';
 
 const ofetch = $fetch.create({
     baseURL: 'http://localhost:3000/api',

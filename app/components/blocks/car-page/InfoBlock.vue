@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { UiIcon } from '~/components/ui'
-    import type { CarInfoBlockProps } from "~/types/blocks/car-page/info-block";
+    import type { CarInfoBlockProps } from '~/types/blocks/car-page/info-block'
 
     const {
         title,

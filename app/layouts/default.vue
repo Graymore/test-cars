@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { AppHeader } from '~/components/blocks';
+    import { AppHeader } from '~/components/blocks'
 </script>
 
 <template>

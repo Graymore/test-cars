@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import type { IconProps } from "~/types/ui/icon";
+    import type { IconProps } from'~/types/ui/icon'
 
     const { name } = defineProps<IconProps>()
 </script>

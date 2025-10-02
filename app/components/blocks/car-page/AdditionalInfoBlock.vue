@@ -1,7 +1,7 @@
 <script setup lang="ts">
-    import { InfoBlock, InfoBlockSkeleton } from ".";
-    import { APICar } from "~/api"
-    import type { CarInfoBlockOption } from "~/types/blocks/car-page/info-block";
+    import { InfoBlock, InfoBlockSkeleton } from '.'
+    import { APICar } from '~/api'
+    import type { CarInfoBlockOption } from '~/types/blocks/car-page/info-block'
 
     const { model_id } = defineProps<{
         model_id?: number;

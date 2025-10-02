@@ -1,5 +1,5 @@
 import type { Ref } from 'vue'
-import type { APICarPage } from "~/types/api/APICar";
+import type { APICarPage } from '~/types/api/APICar'
 
 export type TState = Ref<APICarPage>;
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { CarListView } from '~/components/blocks'
-    import { APICar } from "~/api"
+    import { APICar } from '~/api'
 
     const cars = useCars()
 

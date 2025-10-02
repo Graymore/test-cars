@@ -1,4 +1,4 @@
-import type { AppIcons } from "~/types/common/icons";
+import type { AppIcons } from '~/types/common/icons'
 
 export interface IconProps {
     name: AppIcons;
